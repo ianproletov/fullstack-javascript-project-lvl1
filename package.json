@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "hexlet 1-st project",
   "main": "index.js",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ianproletov/fullstack-javascript-project-lvl1/issues"
   },
-  "homepage": "https://github.com/ianproletov/fullstack-javascript-project-lvl1#readme"
+  "homepage": "https://github.com/ianproletov/fullstack-javascript-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

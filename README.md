@@ -4,3 +4,6 @@
 [![project-check](https://github.com/ianproletov/fullstack-javascript-project-lvl1/actions/workflows/project-check.yml/badge.svg)](https://github.com/ianproletov/fullstack-javascript-project-lvl1/actions/workflows/project-check.yml)
 ### Brain-even demo:
 [![asciicast](https://asciinema.org/a/495284.svg)](https://asciinema.org/a/495284)
+
+### Brain-calc demo:
+[![asciicast](https://asciinema.org/a/495298.svg)](https://asciinema.org/a/495298)

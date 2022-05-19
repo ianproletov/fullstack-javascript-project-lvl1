@@ -8,5 +8,8 @@
 ### Brain-calc demo:
 [![asciicast](https://asciinema.org/a/495298.svg)](https://asciinema.org/a/495298)
 
-### Brain-nod demo:
+### Brain-gcd demo:
 [![asciicast](https://asciinema.org/a/495920.svg)](https://asciinema.org/a/495920)
+
+### Brain-progression demo:
+[![asciicast](https://asciinema.org/a/495932.svg)](https://asciinema.org/a/495932)

@@ -9,7 +9,7 @@ export default (description, generateRound) => {
   console.log(description);
   let counter = gameCounter;
   while (counter > 0) {
-    const [question, correctAnswer] = generateRound();
+    const { question, correctAnswer } = generateRound();
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer !== answer) {

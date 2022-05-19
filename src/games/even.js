@@ -7,7 +7,7 @@ const maxValue = 100;
 const generateStep = () => {
   const question = Math.floor(Math.random() * maxValue);
   const correctAnswer = getCorrectAnswer(question);
-  return [question, correctAnswer];
+  return { question, correctAnswer };
 };
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 

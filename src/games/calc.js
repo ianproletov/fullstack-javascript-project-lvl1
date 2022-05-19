@@ -15,9 +15,10 @@ const generateStep = () => {
   const [operationSymbol, operation] = operationMap[operationNumber];
   const operator1 = Math.floor(Math.random() * maxValue);
   const operator2 = Math.floor(Math.random() * maxValue);
-  const correctAnswer = operation(operator1, operator2);
+  const operationResult = operation(operator1, operator2);
   const question = `${operator1} ${operationSymbol} ${operator2}`;
-  return [question, String(correctAnswer)];
+  const correctAnswer = String(operationResult);
+  return { question, correctAnswer };
 };
 
 export default () => game(description, generateStep);

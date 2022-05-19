@@ -7,3 +7,6 @@
 
 ### Brain-calc demo:
 [![asciicast](https://asciinema.org/a/495298.svg)](https://asciinema.org/a/495298)
+
+### Brain-nod demo:
+[![asciicast](https://asciinema.org/a/495920.svg)](https://asciinema.org/a/495920)

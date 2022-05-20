@@ -14,7 +14,7 @@ export default (description, generateRound) => {
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer !== answer) {
       console.log(`Answer "${answer}" is wrong answer ;(. Correct answer was ${correctAnswer}`);
-      console.log(`Let's try again, ${playerName}`);
+      console.log(`Let's try again, ${playerName}!`);
       return;
     }
     console.log('Correct!');
